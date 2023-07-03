@@ -1,0 +1,61 @@
+.header {
+  background-color: #ffa500;
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    a {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+  &__menu {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      li {
+        margin: 0 12px;
+        .active {
+          background-color: #ff5722;
+        }
+        a {
+          font-size: 16px;
+          color: #fff;
+          font-weight: 500;
+          padding: 8px 16px;
+          border-radius: 10px;
+          &:active,
+          &:hover {
+            background-color: #ff5722;
+          }
+        }
+      }
+    }
+  }
+  &__account {
+    ul {
+      list-style-type: none;
+      display: flex;
+      padding: 0;
+      li {
+        a {
+          font-size: 18px;
+          font-weight: 500;
+          color: #fff;
+          padding: 8px 12px;
+          margin: 0 8px;
+          border-radius: 10px;
+          &.active,
+          &:hover {
+            background-color: #ff5722;
+          }
+        }
+      }
+    }
+  }
+}

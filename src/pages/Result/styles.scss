@@ -1,0 +1,31 @@
+.result__tag {
+  font-size: 15px;
+  color: #fff;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  &--true {
+    background-color: green;
+  }
+  &--false {
+    background-color: red;
+  }
+}
+
+.result__list {
+  border: 1px solid #ddd;
+  padding: 0 16px;
+  border-radius: 8px;
+}
+.result__item {
+  &--selected {
+    color: red;
+  }
+  &--result {
+    color: rgb(175, 207, 127);
+  }
+}
+.button {
+  margin-top: 16px;
+}

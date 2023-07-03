@@ -1,0 +1,18 @@
+table,
+tr,
+th,
+td {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 16px;
+}
+td > a {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #000;
+}
+a:hover {
+  background-color: orange;
+  color: #fff;
+}
