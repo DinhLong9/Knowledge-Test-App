@@ -3,7 +3,7 @@ import { login } from "../../services/UsersServices";
 import { setCookie } from "../../helpers/cookie";
 import { useNavigate } from "react-router-dom";
 import { generateToken } from "../../helpers/generateToken";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { checkLogin } from "../../actions/loginAction";
 
 export default function Login() {
